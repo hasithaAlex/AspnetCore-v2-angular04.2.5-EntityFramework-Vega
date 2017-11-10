@@ -54,3 +54,6 @@ dotnet restore
  remove>> dotnet ef migrations remove 
 
  update>> dotnet ef database update  
+
+ //// but not recomanded
+ remove migration >>  dotnet ef database update 0

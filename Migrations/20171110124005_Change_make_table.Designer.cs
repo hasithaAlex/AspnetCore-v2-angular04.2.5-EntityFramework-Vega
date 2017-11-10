@@ -11,9 +11,10 @@ using System;
 namespace AspnetCoreangular04EntityFrameworkVega2.Migrations
 {
     [DbContext(typeof(VegaDbContext))]
-    partial class VegaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20171110124005_Change_make_table")]
+    partial class Change_make_table
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
