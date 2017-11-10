@@ -1,9 +1,42 @@
 ==============================================
  set ASPNETCORE_ENVIRONMENT="Development"
+
+
+
+
+
+
 ==============================================
 <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
 </ItemGroup>
 ----------------------------------------------
+dotnet restore
+----------------------------------------------
 dotnet watch run
+
+
+
+
+
+==============================================
+///to install EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+----------------------------------------------
+dotnet restore
+
+
+
+
+
+
+==============================================
+///to install Microsoft command line tools
+<ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" />
+</ItemGroup>
+----------------------------------------------
+dotnet restore
+----------------------------------------------
+ dotnet ef
 ==============================================
