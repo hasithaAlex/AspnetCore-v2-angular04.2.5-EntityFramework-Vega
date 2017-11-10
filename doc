@@ -1,0 +1,9 @@
+==============================================
+ set ASPNETCORE_ENVIRONMENT="Development"
+==============================================
+<ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+</ItemGroup>
+----------------------------------------------
+dotnet watch run
+==============================================
