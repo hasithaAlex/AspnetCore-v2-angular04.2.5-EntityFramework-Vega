@@ -1,7 +1,9 @@
+using Microsoft.EntityFrameworkCore; 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspnetCore_angular04_EntityFramework_Vega_2.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
@@ -18,10 +20,11 @@ namespace AspnetCore_angular04_EntityFramework_Vega_2
         }
 
         public IConfiguration Configuration { get; }
-
+     
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<VegaDbContext>(options => options.UseSqlServer(Configuration["ConnectionString:MyConnection"]));
             services.AddMvc();
         }
 

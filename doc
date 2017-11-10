@@ -39,4 +39,18 @@ dotnet restore
 dotnet restore
 ----------------------------------------------
  dotnet ef
-==============================================
+
+
+
+====================================================
+ dotnet add package Microsoft.EntityFrameworkCore.Design
+ dotnet restore
+
+
+
+ ==============================================
+ add>>>>> dotnet ef migrations add <InitialModel>
+
+ remove>> dotnet ef migrations remove 
+
+ update>> dotnet ef database update  
