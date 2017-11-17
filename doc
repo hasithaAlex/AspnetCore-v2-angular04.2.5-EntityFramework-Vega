@@ -49,11 +49,13 @@ dotnet restore
 
 
  ==============================================
- add>>>>> dotnet ef migrations add <InitialModel>
+ add>>>>> dotnet ef migrations add <<Initial Model>>
 
  remove>> dotnet ef migrations remove 
 
  update>> dotnet ef database update  
 
  //// but not recomanded
- remove migration >>  dotnet ef database update 0
+ remove migration >>  dotnet ef database update 0  
+
+downgrate>> dotnet ef database update <<downgrate vertion>>
