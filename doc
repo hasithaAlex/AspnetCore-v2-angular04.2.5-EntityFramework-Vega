@@ -48,7 +48,7 @@ dotnet restore
 
 
 
- ==============================================
+==============================================
  add>>>>> dotnet ef migrations add <<Initial Model>>
 
  remove>> dotnet ef migrations remove 
@@ -63,6 +63,7 @@ downgrate>> dotnet ef database update <<downgrate vertion>>
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -76,3 +77,9 @@ downgrate>> dotnet ef database update <<downgrate vertion>>
 
 
 
+=======
+==============================================
+//install AutoMapper
+>dotnet add package AutoMapper
+>dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 1.2.0
+>>>>>>> 02_Building_APIs_Using_ASPNET_Core
