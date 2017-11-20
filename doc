@@ -1,6 +1,6 @@
 ==============================================
  set ASPNETCORE_ENVIRONMENT="Development"
-
+ $Env:ASPNETCORE_ENVIRONMENT = "Development"
 
 
 
@@ -69,3 +69,10 @@ downgrate>> dotnet ef database update <<downgrate vertion>>
 ==============================================
 //install angular
 >npm install @angular/cli@latest -g
+//copy [.angular-cli.json] to project
+
+//install cli inside project 
+>npm install @angular/cli@latest --save-dev
+
+
+
