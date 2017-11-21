@@ -15,6 +15,8 @@ namespace AspnetCore_angular04_EntityFramework_Vega_2.Persistence
         
         }
 
-        public DbSet<Make> Makes { get; set; }        
+        public DbSet<Make> Makes { get; set; }    
+        public DbSet<Feature> Features { get; set; }    
+            
     }
 }
