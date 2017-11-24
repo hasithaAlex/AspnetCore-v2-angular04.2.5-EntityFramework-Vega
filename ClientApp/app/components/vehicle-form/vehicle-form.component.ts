@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vehicle-form.component.css']
 })
 export class VehicleFormComponent implements OnInit {
-  makes:any[];
+  makes: any[];
   models: any[];
   features: any = [];
   vehicle: any = {};
@@ -17,12 +17,12 @@ export class VehicleFormComponent implements OnInit {
 
   ngOnInit() {
     this.vehicleService.getMakes().
-      subscribe(makes => 
+      subscribe(_makes => 
         {       
-          this.makes = makes;
+          this.makes = _makes;
         });
 
-     this.vehicleService.getFeatures().subscribe(features => this.features = features)    
+     this.vehicleService.getFeatures().subscribe(_features => this.features = _features)    
   }
 
   onMakeChanges(){
