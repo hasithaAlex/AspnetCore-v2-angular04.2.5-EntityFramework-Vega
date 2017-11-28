@@ -13,3 +13,13 @@ C:\build_output\AspnetCore-angular04-EntityFramework-Vega-2.runtimeconfig.json
 C:\build_output\AspnetCore-angular04-EntityFramework-Vega-2.runtimeconfig.dev.json
 C:\build_output\AspnetCore-angular04-EntityFramework-Vega-2.dll
 C:\build_output\AspnetCore-angular04-EntityFramework-Vega-2.pdb
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\bin\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.deps.json
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\bin\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.runtimeconfig.json
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\bin\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\bin\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.dll
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\bin\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.pdb
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\obj\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\obj\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\obj\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\obj\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.dll
+C:\Users\Alex\Desktop\Git\AspnetCore-v2-angular04.2.5-EntityFramework-Vega\obj\Debug\netcoreapp2.0\AspnetCore-angular04-EntityFramework-Vega-2.pdb
